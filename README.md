@@ -3,15 +3,14 @@
 Analysis Report:
 
 Overview of the Analysis:
-The purpose of this analysis was to build a deep learning model for a classification problem. The goal was to predict the success or failure of a specific application based on various features.
-
+The purpose of this analysis was to construct a deep learning model for a classification problem, with the ultimate aim of predicting the success or failure of a specific application, taking into account a range of features.
+  
 Results:
 
 Data Preprocessing:
 
-Target Variable(s): The target variable for the model is 'IS_SUCCESSFUL', which indicates whether the application was successful or not.
-Feature Variable(s): The feature variables for the model are the remaining columns in the dataset after dropping 'EIN' and 'NAME'.
-Variables to Remove: The 'EIN' and 'NAME' columns were removed from the input data as they are neither targets nor features.
+Target Parameter(s): The designated target parameter for the model is 'IS_SUCCESSFUL', signaling whether the application proved successful or not. 
+Feature Parameter(s): The feature parameters for the model constitute all remaining columns in the dataset after the removal of 'EIN' and 'NAME'. Variables to Remove: The columns 'EIN' and 'NAME' were eliminated from the input data, as they were neither targets nor features.
 
 Compiling, Training, and Evaluating the AlphabetSoupCharity Model:
 
